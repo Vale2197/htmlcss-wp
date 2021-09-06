@@ -110,7 +110,7 @@ main #bloccoImmagine {
 }
 
 #bloccoColonne .sidebarLeft, #bloccoColonne .sidebarRight {
-    width: calc(25% - 10px);
+    width: calc(25% - 23px);
     float: left;
     margin-top: 2rem;
 }
@@ -146,12 +146,29 @@ main #bloccoImmagine {
 }
 
 #bloccoColonne .mainContent {
-    background-color: #ABCFE7;
     float: left;
     width: 50%;
-    margin-top: 1rem;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 2rem;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+#bloccoColonne .mainContent .img {
+    background-image: url("./img/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 238px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#bloccoColonne .mainContent .cover {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    border-radius: 13px;
 }
 /*  / MAINCONTENT */
 
