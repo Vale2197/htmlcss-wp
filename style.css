@@ -199,7 +199,17 @@ main #bloccoImmagine {
 }
 
 footer {
-    background-color: #8801FE;
     margin-top: 0.5rem;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    line-height: 80px;
+}
+
+footer p span {
+    color: red;
+    font-size: 32px;
 }
 /* / FOOTER */
