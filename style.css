@@ -12,7 +12,7 @@
 
 #mainContainer {
     margin: auto;
-    width: 75%;
+    width: 85%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -154,6 +154,26 @@ main #bloccoImmagine {
     margin-right: 10px;
 }
 /*  / MAINCONTENT */
+
+/* SIDEBAR RIGHT */
+#bloccoColonne .sidebarRight .img {
+    background-image: url("./img/img-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 238px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#bloccoColonne .sidebarRight .cover {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    border-radius: 13px;
+}
+/* / SIDEBAR RIGHT */
 /* / BLOCCO A COLONNE */
 
 /* FOOTER */
