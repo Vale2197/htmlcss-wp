@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#mainContainer {
+    margin: auto;
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  style header */
+.debug header {
+    height: 80px;
+}
+
+header .logo img {
+    width: 200px;;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-top: 32px;
+    color: #878787;
+}
+
+header nav li {
+    display: inline-block;
+    padding-right: 13px;
+}
+/*  / style header */
+
+/* sezione IMMAGINE */
+.debug main #bloccoImmagine {
+    height: 349px;
+}
+
+main #bloccoImmagine {
+    background-color: #E1D67A;
+    width: 100%;
+    margin-top: 1rem;
+}
+/* / sezione IMMAGINE */
+
+/* BLOCCO A COLONNE */
+#bloccoColonne {
+    padding-bottom: 1rem;
+} 
+
+/* TITOLO */
+.debug #bloccoColonne .title {
+    height: 80px;
+}
+
+#bloccoColonne .title {
+    background-color: #ABCFE7;
+    margin-top: 1rem;
+}
+/* / TITOLO */
+
+/* SIDEBAR LEFT*/
+.debug #bloccoColonne .sidebarLeft, .debug #bloccoColonne .sidebarRight {
+    height: 500px;
+}
+
+#bloccoColonne .sidebarLeft, #bloccoColonne .sidebarRight {
+    background-color: #ABCFE7;
+    width: calc(25% - 10px);
+    float: left;
+    margin-top: 1rem;
+}
+/* / SIDEBAR LEFT*/
+
+/* MAINCONTENT */
+.debug #bloccoColonne .mainContent {
+    height: 500px;
+}
+
+#bloccoColonne .mainContent {
+    background-color: #ABCFE7;
+    float: left;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*  / MAINCONTENT */
+/* / BLOCCO A COLONNE */
+
+/* FOOTER */
+.debug footer {
+    height: 80px;
+}
+
+footer {
+    background-color: #8801FE;
+    margin-top: 0.5rem;
+}
+/* / FOOTER */
